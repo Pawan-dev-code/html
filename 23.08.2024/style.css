@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 243, 40);
+    margin: 0;
+    padding: 13px;
+
+    b
+}
+
+img{
+    height: 19px;
+    width: 19px;
+}
+p{
+background-color: aqua;
+    color: black;
+
+           
+}
+body{
+    background-color: darkorange;
+}
