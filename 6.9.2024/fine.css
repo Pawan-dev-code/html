@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    color: aliceblue;
+    margin: 0%;
+    padding: 3px;
+}
+p{
+    background-color: rgb(252, 252, 252);
+    color: rgb(12, 8, 2);
+}
+.natu
+{
+    width: 45px; height: 25px;
+}
+footer{
+    background-color: aqua;
+    color: rgb(23, 36, 22);
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+  
+}
+a{
+    text-decoration: inherit;
+    color: black;
+}
+body{
+    margin: 0%;
+    margin-top: 12px;
+}
+.sit
+{
+    width: 1500px;
+    height: 1000px;
+}
