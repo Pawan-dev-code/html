@@ -1,0 +1,176 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d1f5f39c;
+    color: #e7ebf9;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;}
+header {
+    background-color:non;
+    padding: 20px;
+    text-align: center;
+    color:blue
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color:#d30000f0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color:#9cc9ee88;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4500;
+}
+
+
+.project{
+    position: relative;
+
+}
+.animated{
+    
+    animation:reverse 3s infinite alternate;
+}
+/* @keyframes move{
+
+    0%{  
+         transform: translate(0,0)reverse(0deg);
+
+}
+50%{
+    transform: translate(100px, -50px)reverse(180deg);
+}
+100%{
+    transform: translate(0,0)reverse(360deg);
+} */
+
+img{
+    padding: 25px;
+}
+
+section{
+background-color:#d3e1ec5e;
+}
+
+
+#ab{
+    display: flex;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+    color:#2196F3;
+    background-color: #dfdbf3;
+}
+h1{
+    color: #fff8f8;
+
+}
+.section > .project{
+    margin: 2rem;
+    padding: 2rem;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    height: auto;
+}
+.about{
+    margin: 2rem;
+    color: #000000;
+    background-color:#b6c1cb80;
+    padding: 2rem;
+    text-align:center;
+}
+/* styles.css */
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/444/132/1014/anime-boys-jujutsu-kaisen-monochrome-satoru-gojo-shonen-jump-hd-wallpaper-preview.jpg');
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed during scroll */
+    background-position: center; /* Centers the background image */
+    image-resolution: 100%;
+   
+}
+
+
+
+
+.cs1{
+    background-color: #ccc;
+    color:#ffffff;
+}
+.cs2{
+    background-color: #dfdbf3;
+    color: rgb(255, 255, 255);
+}
+
+#poo{
+  
+   margin: 0;
+   padding: 0;
+}
+
+
+
+.contact-form{
+    display: flex;
+}

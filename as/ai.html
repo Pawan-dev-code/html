@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Style Portfolio</title>
+    <link rel="stylesheet" href="ai.css">
+</head>
+<style>
+     
+             @keyframes slideIn {
+            from {
+                transform: translateX(120%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        } 
+
+         .animated-image {
+         
+            height: 10rem;
+            animation: slideIn 5s ease-out;
+            text-align: right;
+        padding: 1rem;
+        }
+         
+</style> 
+<body >
+    <header>     <img src="data:image/jpeg;base64,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" alt="" width="189rem"><h1>MySelf Pawan Jadhav 
+     </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section id="home">
+        
+        <h2>About My self</h2>
+        <p>Welcome to my web themed. I'm passionate about web development and anime.</p>
+
+        <section id="ab">
+         
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAklifjjCrX26-_33_2ohFY4IpCdl5VV-GlQ&s" alt="Rotating Image" class="animated-image" height="140px
+            ">
+            <p  alt="Rotating Image" class="animated-image">Hello! My name is Pawan Jadhav, and I am a passionate web developer with a strong background in creating dynamic and responsive websites. With a keen eye for detail and a commitment to delivering high-quality work, I specialize in both front-end and back-end development.</p>
+        </section></section>
+   
+
+
+<section id="projects">
+    <!-- <section id="myself"></section> -->
+
+        <h2>Free wedsites to wacth anime</h2>
+        
+        <section class="cs1" id="cs1">
+               
+                <div class="project" id="poo">
+     
+                    <h3>9anime</h3>
+            <p>1.watch anime free online only sub </p>
+            <p>
+
+               
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZkh56xb_tzwoohPWXWBHtj3ruEZks20rzA&s" alt="Rotating Image" class="animated-image">
+                </a>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPXHV4xEH2y2NIFA2T8JxamI29ePnvqzYqBA&s" alt="Rotating Image" class="animated-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFaMgZGitQnt9LGoOTJsxKR_7-hnurRqIIw&s"  alt="Rotating Image" class="animated-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAklifjjCrX26-_33_2ohFY4IpCdl5VV-GlQ&s" alt="Rotating Image" class="animated-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS553G4WTGShndhrfpcWyXJND8Fn3RnmbGWWQ&s" alt="Rotating Image" class="animated-image">
+            </p>
+        </div>
+    </section>
+      <section class="cs2" id="cs2">
+        <div class="project" id="poo">
+        
+                   <h3>9anime</h3>
+           <p>1.watch anime free online only sub </p>
+           <p>
+<div class="swiper-slide-inner"></div>
+              
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZkh56xb_tzwoohPWXWBHtj3ruEZks20rzA&s" alt="Rotating Image" class="animated-image">
+               </a>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPXHV4xEH2y2NIFA2T8JxamI29ePnvqzYqBA&s" alt="Rotating Image" class="animated-image">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFaMgZGitQnt9LGoOTJsxKR_7-hnurRqIIw&s"  alt="Rotating Image" class="animated-image">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAklifjjCrX26-_33_2ohFY4IpCdl5VV-GlQ&s" alt="Rotating Image" class="animated-image">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS553G4WTGShndhrfpcWyXJND8Fn3RnmbGWWQ&s" alt="Rotating Image" class="animated-image">
+           </p>
+       </div>
+           
+
+</section></section>
+</div>
+
+
+
+
+
+
+
+
+<section class="about" id="about">
+
+
+
+
+<h3>About this page</h3>
+<p>you're looking for information on anime streaming sites! <br>There are quite a few popular options out there:
+
+    <br>1. Crunchyroll: Known for its extensive library of anime shows, Crunchyroll offers both subbed and dubbed versions of many series.
+    
+    <br>2. Netflix: Has a growing collection of anime, including some exclusive titles.
+    
+    <br>3. Funimation: Another great option for anime fans, offering a wide range of shows and movies.
+    
+    <br>4. Hulu: Also features a selection of anime series.
+    
+    <br>5. 9Anime: A free site that offers a variety of anime shows and movies.
+    .</p>
+
+
+</section>
+
+
+<section class="contact" id="contact">
+
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</section>
+
+   
+</main>
+
+<footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+    <p>Contact us at <a href="https://www.google.com/intl/en-US/gmail/about/">jadhav.pawan0566@gmail.com`</a></p>
+</footer>
+
+</body>
+
+</html>
