@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSports Tournament</title>
+    <link rel="stylesheet" href="sd.css">
+</head>
+<body>
+    <header>
+        <h1><I>LUFFY Tournament</I></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section id="home" class="section">
+        <h2>Welcome to the eSports Tournament</h2>
+        <p>Join us for an epic showdown of the best teams!</p>
+      <div>  <img src="https://wallpapers.com/images/hd/shirou-free-fire-cobra-mp40-evolution-weapon-ywopo3rpbavv77so.jpg" alt="" height="125px"
+        width: 14rem;>
+        <img src="https://dailyspin.id/wp-content/uploads/2022/11/evo-bundle-ff-2.jpg" alt="" height="125px">
+        <img src="https://images.hdqwalls.com/download/garena-free-fire-rampage-2v-1920x1080.jpg" alt=""  height="125px">
+        <!-- <img src="https://th.bing.com/th/id/OIP.58SEHmFW8r0DO-4swXbhEwAAAA?pid=ImgDet&w=159&h=290&c=7&dpr=2.3" alt="" height="125px"> -->
+       <div>  <img src="https://wallpapercave.com/wp/wp5877107.jpg" alt="" height="125px">
+        <img src="https://th.bing.com/th/id/OIP.sayXdd4FSnfrtFT6_Ah2GQHaEK?pid=ImgDet&w=207&h=116&c=7&dpr=2.3" alt="" height="125px">
+        </div>
+
+    </section>
+
+    <section id="teams" class="section">
+        <h2> Organizer</h2>
+        <p>Meet the  Organizer!</p>
+
+    <h3>
+        <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/Tournament.Free.fire.maxx" target="_blank">Tournament.Free.fire.maxx</a></li>
+
+    </h3></h3>
+    </section>
+
+    <section id="schedule" class="section">
+        <h1>Schedule</h1>
+        <p>Check out the tournament schedule below.</p>
+
+        <p>tournament are heald on saturday and sunday <br>
+        time is given below...</p>
+        <ul id="schedule-list">
+            <!-- Schedule will be populated by JavaScript -->
+        </ul>
+    </section>
+
+
+
+
+    <section  class="join">
+
+        <h2>how to participate in the tournament</h2>
+
+        <p class="step">
+            1.   Follow the link given below of the matches. <br>
+            2.   It will take you to the offical luffy tournament member instagram id.<br>
+            3.   message tournament and type which type ( br, cs).<br>
+            4.   pay the needed entry free for the match and send the screen shot of payment.<br>
+            5.   you will be added to a telegram group in which you will get the match details ( Room  Id , Password).<br>
+            6.   play the solo , Duo , Squard as per the match type.<br>
+            7. win and get the reward. (reward will be given in 2-10 min after the match )<br>
+               </p>
+
+    </section>
+
+
+
+    
+  <section class="eee">
+   <section>
+    <div class="container">
+        <div class="card">
+            <h2>Register for BR Solo Match</h2>
+            <form id="soloForm" onsubmit="submitSoloForm(event)">
+                <label for="soloName">Name:</label>
+                <input type="text" id="soloName" name="Name" required>
+                <label for="soloUID">In-Game UID:</label>
+                <input type="text" id="soloUID" name="UID" required>
+                <label for="soloIGN">In-Game Name:</label>
+                <input type="text" id="soloIGN" name="Ingame-name" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+<section>
+        <div class="card">
+            <h2>Register for BR Duo Match</h2>
+            <form id="duoForm" onsubmit="submitDuoForm(event)">
+                <label for="player1Name">Player 1 Name:</label>
+                <input type="text" id="player1Name" name="Name-1" required>
+                <label for="player1UID">Player 1 In-Game UID:</label>
+                <input type="text" id="player1UID" name="UID-1" required>
+                <label for="player1IGN">Player 1 In-Game Name:</label>
+                <input type="text" id="player1IGN" name="Ingame-name" required>
+                <label for="player2Name">Player 2 Name:</label>
+                <input type="text" id="player2Name" name="Name-2" required>
+                <label for="player2UID">Player 2 In-Game UID:</label>
+                <input type="text" id="player2UID" name="UID-2" required>
+                <label for="player2IGN">Player 2 In-Game Name:</label>
+                <input type="text" id="player2IGN" name="Ingame-name" required>
+                <button type="submit">Register</button>
+            </form>
+        </div></section>
+<section>
+        <div class="card">
+            <h2>Register for BR Squad Match</h2>
+            <form id="squadForm" onsubmit="submitSquadForm(event)">
+                <label for="player1NameSquad">Player 1 Name:</label>
+                <input type="text" id="player1NameSquad" name="Name-1" required>
+                <label for="player1UIDSquad">Player 1 In-Game UID:</label>
+                <input type="text" id="player1UIDSquad" name="UID-1" required>
+                <label for="player1IGNSquad">Player 1 In-Game Name:</label>
+                <input type="text" id="player1IGNSquad" name="Ingame-name" required>
+                <label for="player2NameSquad">Player 2 Name:</label>
+                <input type="text" id="player2NameSquad" name="Name-2" required>
+                <label for="player2UIDSquad">Player 2 In-Game UID:</label>
+                <input type="text" id="player2UIDSquad" name="UID-2" required>
+                <label for="player2IGNSquad">Player 2 In-Game Name:</label>
+                <input type="text" id="player2IGNSquad" name="Ingame-name" required>
+                <label for="player3NameSquad">Player 3 Name:</label>
+                <input type="text" id="player3NameSquad" name="Name-3" required>
+                <label for="player3UIDSquad">Player 3 In-Game UID:</label>
+                <input type="text" id="player3UIDSquad" name="UID-3" required>
+                <label for="player3IGNSquad">Player 3 In-Game Name:</label>
+                <input type="text" id="player3IGNSquad" name="Ingame-name" required>
+                <label for="player4NameSquad">Player 4 Name:</label>
+                <input type="text" id="player4NameSquad" name="Name-4" required>
+                <label for="player4UIDSquad">Player 4 In-Game UID:</label>
+                <input type="text" id="player4UIDSquad" name="UID-4" required>
+                <label for="player4IGNSquad">Player 4 In-Game Name:</label>
+                <input type="text" id="player4IGNSquad" name="Ingame-name" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+   </section>
+
+
+
+   <section>
+
+    <div class="container">
+        <div class="card">
+            <h2>Register for CS Squad Match</h2>
+            <form id="csSquadForm" onsubmit="submitCsSquadForm(event)">
+                <label for="player1NameCsSquad">Player 1 Name:</label>
+                <input type="text" id="player1NameCsSquad" name="Name-1" required>
+                <label for="player1UIDCsSquad">Player 1 In-Game UID:</label>
+                <input type="text" id="player1UIDCsSquad" name="UID-1" required>
+                <label for="player1IGNCsSquad">Player 1 In-Game Name:</label>
+                <input type="text" id="player1IGNCsSquad" name="Ingame-name" required>
+                <label for="player2NameCsSquad">Player 2 Name:</label>
+                <input type="text" id="player2NameCsSquad" name="Name-2" required>
+                <label for="player2UIDCsSquad">Player 2 In-Game UID:</label>
+                <input type="text" id="player2UIDCsSquad" name="UID-2" required>
+                <label for="player2IGNCsSquad">Player 2 In-Game Name:</label>
+                <input type="text" id="player2IGNCsSquad" name="Ingame-name" required>
+                <label for="player3NameCsSquad">Player 3 Name:</label>
+                <input type="text" id="player3NameCsSquad" name="Name-3" required>
+                <label for="player3UIDCsSquad">Player 3 In-Game UID:</label>
+                <input type="text" id="player3UIDCsSquad" name="UID-3" required>
+                <label for="player3IGNCsSquad">Player 3 In-Game Name:</label>
+                <input type="text" id="player3IGNCsSquad" name="Ingame-name" required>
+                <label for="player4NameCsSquad">Player 4 Name:</label>
+                <input type="text" id="player4NameCsSquad" name="Name-4" required>
+                <label for="player4UIDCsSquad">Player 4 In-Game UID:</label>
+                <input type="text" id="player4UIDCsSquad" name="UID-4" required>
+                <label for="player4IGNCsSquad">Player 4 In-Game Name:</label>
+                <input type="text" id="player4IGNCsSquad" name="Ingame-name" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    </section></section>
+
+
+
+
+   
+
+     <section id="contact" class="section">                  contact us section in cool esport style 
+        <h2>Contact Us</h2>                  
+        <p>Get in touch for more details.</p>
+        <ul>
+            <li><i class="fas fa-envelope"></i> <a href="readways.ani@example.com">readways.ani@example.com</a></li>
+            <!-- <li><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1234567890</a></li> -->
+            <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/Tournament.Free.fire.maxx" target="_blank">Tournament.Free.fire.maxx</a></li>
+
+            <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/Fred Firemax" target="_blank">Fred Firemax</a></li>
+            <li><i class="fab fa-telegram"></i> <a href="https://t.me/Luffygametou" target="_blank">Pawan.j   </a></li>
+        </ul>
+
+    </section> 
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <footer>
+        <p>&copy; 2024 eSports Tournament</p>
+    </footer>
+
+    <script src="st.js"></script>
+
+</body>
+</html>
